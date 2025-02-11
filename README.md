@@ -51,6 +51,42 @@ npm run dev
 npm start
 ```
 
+## Deployment
+
+### Backend Deployment on Render
+
+1. Create a Render Account:
+    - Sign up for a free account at Render.
+
+2. Create a New Web Service:
+    - In the Render dashboard, click on "New" and then "Web Service".
+    - Connect your GitHub repository and select the notes-app repository.
+
+3. Configure Build and Start Commands:
+    - Build Command:
+
+        ```
+        npm install
+        ```
+
+    - Start Command:
+
+        ```
+        npm start
+        ```
+
+4. Set Environment Variables:
+
+    - In the Render service settings, add any necessary environment variables.
+
+5. Deploy:
+
+    - Trigger a new deploy by pushing changes to your GitHub repository or clicking the "Deploy" button in Render.
+
+6. Access the Application:
+
+    - Once the deployment is successful, you can access the backend at the URL provided by Render.
+
 ## API Endpoints
 
 ### Contacts
