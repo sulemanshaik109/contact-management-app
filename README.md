@@ -122,7 +122,7 @@ Joi is used to validate contact fields:
     - Use the URL provided by Render for the backend. For example:
 
         ```
-        https://suleman-notes-app.onrender.com/api/notes
+        https://contact-management-app-qndr.onrender.com/contacts
         ```
 
 3. Send Request:
