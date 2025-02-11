@@ -108,6 +108,26 @@ Joi is used to validate contact fields:
 - `email`: Must be a valid email
 - `phone`: Only numbers allowed
 
+## Testing
+
+### Using Postman
+
+1. Add New Request:
+
+    - Create a new request in Postman or Insomnia.
+    - Set the request method to GET, POST, PUT, or DELETE depending on the endpoint you want to test.
+
+2. Set URL:
+
+    - Use the URL provided by Render for the backend. For example:
+
+        ```
+        https://suleman-notes-app.onrender.com/api/notes
+        ```
+
+3. Send Request:
+
+    - Send the request and check the response.
 
 ## Show Your Support
 
